@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Html Css Login Page</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<form method="POST" action="connect.php">
+		<div class="login">
+			<i class="fa fa-empire"></i>
+			<h1>Login</h1>
+			<div class="group">
+				<input type="text" name="username" placeholder="Username" required><i class="fa fa-user"></i>
+			</div>
+			<div class="group">
+				<input type="password" name="password" placeholder="Password" required><i class="fa fa-lock"></i>
+			</div>
+			<div class="group">
+				<input type="text" name="address" placeholder="Address" required><i class="fa fa-home"></i>
+			</div>
+			<button type="submit"><i class="fa fa-send"></i>Login</button>
+			<p class="fs">Forget <a href="#">Username</a> / <a href="#">Password</a> ? </p>
+			<p class="ss">Don't have an account ? <a href="#">Signup</a></p>
+		</div>
+	</form>
+</body>
+</html>
